@@ -1,0 +1,13 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=10, face13=5, hand=12, infant_seat=8, object=12, person=10, phone=1
+  [WARN] D03.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D03.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D05.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] S01_ir.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S01_rgb.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S01_rgb.png: ghế rear_right có cả child_seat và infant_seat
+  [WARN] S02_ir.png: child_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S02_rgb.png: child_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S05_ir.png: child_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S05_rgb.png: child_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+Kết quả: 0 lỗi, 10 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

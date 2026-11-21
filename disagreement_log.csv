@@ -1,0 +1,2 @@
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D05.png,face13,left_eye_outer/right_eye_outer,Cảnh báo theo trục x trong check_final.txt,"y trái = 669.12; y phải = 517.65",Nguyễn Chí Tài xác nhận cách gán theo trục y,mine,4.4-2 / 4.6,Giữ nhãn D05 và ghi giải thích theo trục y trong check_final.txt.

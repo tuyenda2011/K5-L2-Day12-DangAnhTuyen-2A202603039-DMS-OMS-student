@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Ảnh IR mô phỏng mất thông tin màu quần áo và bề mặt ghế so với ảnh RGB cùng cảnh. Hình dạng nôi và tay xách vẫn là dấu hiệu nhận dạng.",infant_seat / seat,"Bản xuất giữ infant_seat ở rear_left trên cả hai ảnh."
+S05_ir,IR_sim,"Khi đối chiếu nhãn của cặp S05, vị trí và hướng của nôi được ghi giống nhau dù ảnh IR mô phỏng không có màu như RGB.",infant_seat.facing / seat,"Cả hai ảnh ghi rear_right và facing = rear."
+D03,real_IR,"Bản gán ghi mắt phải không đủ rõ để xác định. Cả bốn điểm mắt phải trong face13 đều mang cờ outside.",eye_right / right_eye_*.outside,"Ghi eye_right = unknown. Ảnh chỉ cho biết mức nhìn thấy trong khung này; log không xác định nguyên nhân."
+D04,real_IR,"Bản gán có đủ điểm hiện ở hai mắt, còn cả bốn điểm môi và khóe miệng mang cờ outside.",face13 / mouth_*.outside / lip_*.outside,"Giữ các điểm mắt đã gán và cờ outside của vùng miệng theo bản xuất."
